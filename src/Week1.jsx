@@ -59,7 +59,7 @@ const data = [
     num: 20,
   },
 ];
-function App() {
+function Week1() {
   const [products, setProducts] = useState(data);
   const [newProduct, setNewProduct] = useState('');
   const [changName, setChangeName] = useState(false)
@@ -135,4 +135,4 @@ function App() {
   );
 }
 
-export default App;
+export default Week1;
