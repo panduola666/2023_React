@@ -107,7 +107,7 @@ function TodoList({ tag, changeTag, todos, getTodo }) {
           {!filterTodo.length && <li className='todoList_label' style={{justifyContent: 'center'}}>請查看其他列表</li>}
         </ul>
         <div className='todoList_statistics'>
-          <p> {todos.filter((todo) => todo.status).length} 個已完成項目</p>
+          <p> {todos.filter((todo) => !todo.status).length} 個待完成項目</p>
           <a href='#' onClick={clearTodo}>
             清除已完成項目
           </a>

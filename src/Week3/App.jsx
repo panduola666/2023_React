@@ -1,6 +1,6 @@
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js';
-import 'bootstrap/scss/bootstrap.scss';
+// import 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js';
+// import 'bootstrap/scss/bootstrap.scss';
 import Login from "./Login";
 import SignUp from './SignUp';
 import Todo from './Todo';
